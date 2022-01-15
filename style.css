@@ -23,9 +23,15 @@ body
 	box-shadow: 0px 12px 15px 10px hsl(217, 55%, 10%);
 }
 
+.image-container
+{
+	width: 302px;
+	height: 302px;
+	position: relative;
+}
+
 .image-container .normal
 {
-	position: relative;
     width: 302px;
     border-radius: 15px;
 }
