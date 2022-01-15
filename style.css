@@ -1,0 +1,164 @@
+
+body
+{
+	font-size: 18px;
+	text-align: left;
+	font-family: 'Outfit', sans-serif;
+	color: hsl(215, 51%, 70%);
+	background-color: hsl(217, 54%, 11%);
+	font-weight: 300;
+}
+
+
+.container
+{
+	display: flex;
+	flex-direction: column;
+	background-color: hsl(216, 50%, 16%);
+	height: 565px;
+	width: 305px;
+	margin: 100px auto;
+	border-radius: 15px;
+	padding: 25px;
+	box-shadow: 0px 12px 15px 10px hsl(217, 55%, 10%);
+}
+
+.image-container .normal
+{
+	position: relative;
+    width: 302px;
+    border-radius: 15px;
+}
+
+.image-container .after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+
+}
+
+.image-container:hover .after {
+    display: block;
+    background: rgba(0, 255, 247,0.5);
+    border-radius: 15px;
+
+}
+
+.image-container .hover
+{
+    position: absolute;
+    top: 40%;
+    left: 42%;
+}
+
+
+
+
+.first h1:hover
+{
+	color:  hsl(178, 100%, 50%);
+}
+
+h1
+{
+	font-size: 22px;
+	text-align: left;
+	color: white;
+	font-weight: 600;
+}
+
+a 
+{
+	color: white; 
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: hsl(178, 100%, 50%);
+	text-decoration: none;
+}
+
+.second 
+{
+	display: flex;
+	justify-content: space-between;
+	font-weight: 400;
+	font-size: 16px;
+
+}
+
+
+.eth
+{
+	color: hsl(178, 100%, 50%);
+}
+
+.second img
+{
+	margin-right: 6px;
+	margin-left: 6px;
+	float: left;
+	vertical-align: middle;
+}
+
+
+
+
+.third
+{
+	display: flex;
+	align-items: center;
+	font-weight: 300;
+}
+
+.third img
+{
+	width: 32px;
+	height: 32px;
+	margin: 10px;
+	border: 1px solid white;
+	border-radius: 20px;
+}
+
+footer
+{
+	text-align: center;
+	font-size: 10px;
+}
+
+
+@media all and (max-width: 375px)
+
+{
+	.container
+	{
+	width: 270px;
+	height: 500px;
+	}
+
+	.image-container 
+	{
+    width: 270px;
+	}
+
+	.image-container .normal
+	{
+    width: 270px;
+	}
+
+	h1
+	{
+		font-size: 20px;
+		margin: 0px;
+	}
+
+
+	p
+	{
+		font-size: 14px;
+	}
+}
