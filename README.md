@@ -27,7 +27,7 @@ Users should be able to:
 ### Useful resources
 
 - OpenClassRooms.com
-- Mozilla Developpers
+- Developer.mozilla.org
 
 
 ## Author
